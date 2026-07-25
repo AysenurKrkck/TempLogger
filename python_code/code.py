@@ -3,7 +3,7 @@ import serial # Seri port (Arduino vb.) ile iletişim kurmak için pyserial mod�
 
 # TR: DB Browser for SQLite ile oluşturulan veritabanı dosyasına bağlanır
 # EN: Connects to the database file created with DB Browser for SQLite
-baglan = sqlite3.connect(r"c:\Users\zeyne\OneDrive\Masaüstü\database.db")
+baglan = sqlite3.connect(r"c:\Users\tech\OneDrive\Masaüstü\database.db")
 
 # TR: Veritabanı üzerinde SQL sorguları (INSERT vb.) çalıştırmak için imleç (cursor) oluşturur
 # EN: Creates a cursor object to execute SQL queries (INSERT, etc.) on the database

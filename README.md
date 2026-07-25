@@ -1,5 +1,9 @@
 # 🌡️ DHT11 Serial Data Logger & SQLite Database
 
+[![Arduino](https://img.shields.io/badge/Hardware-Arduino-00979D?style=flat-for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
+[![Python](https://img.shields.io/badge/Software-Python%203.x-3776AB?style=flat-for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-for-the-badge)](https://opensource.org/licenses/MIT)
+
 [TR] Bu proje, **Arduino (DHT11 + I2C LCD)** kullanarak sıcaklık ve nem verilerini okur, ekranlar ve seri port üzerinden bir **Python** betiğine aktarır. Python betiği ise bu verileri **DB Browser for SQLite** ile oluşturulan bir veritabanına kaydeder.
 
 [EN] This project reads temperature and humidity data using an **Arduino (DHT11 + I2C LCD)** and sends it over the serial port to a **Python** script, which parses and logs the data into a **SQLite** database created via **DB Browser for SQLite**.
